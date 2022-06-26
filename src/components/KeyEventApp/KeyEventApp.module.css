@@ -1,0 +1,59 @@
+.buttons {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.buttons :nth-child(1) {
+  margin-right: 15px;
+}
+
+.colorButtons {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  border: 2px solid var(--button);
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: all 0.3s ease-out;
+}
+
+.headerText {
+  color: var(--button);
+  font-size: 20px;
+  text-align: center;
+}
+
+.redButton {
+  padding: 0.3rem;
+  margin-right: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: hsl(360, 50%, 55%);
+}
+.blueButton {
+  padding: 0.3rem;
+  margin-right: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: hsl(240, 50%, 55%);
+}
+.greenButton {
+  padding: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  color: hsl(120, 50%, 55%);
+}
+
+.redButton:hover {
+  border-color: hsl(360, 50%, 55%);
+  border-radius: 5px;
+}
+.blueButton:hover {
+  border-color: hsl(240, 50%, 55%);
+  border-radius: 5px;
+}
+.greenButton:hover {
+  border-color: hsl(120, 58%, 53%);
+  border-radius: 5px;
+}

@@ -1,0 +1,15 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.keyCodeContainer {
+  font-size: 100px; /* For lamers who don't support viewport sizing */
+  font-size: 40vmin;
+  text-align: center;
+  margin: 0;
+}

@@ -1,0 +1,65 @@
+:root {
+  --red-hue: 360;
+  --blue-hue: 240;
+  --green-hue: 120;
+  --main-hue: var(--green-hue);
+}
+
+/* Themes */
+.themeLight {
+  --background: hsl(var(--main-hue), 45%, 95%);
+  --primary: hsl(var(--main-hue), 50%, 85%);
+  --primary-border: hsl(var(--main-hue), 93%, 58%);
+
+  --text: #424242;
+  --table-head-text: hsl(var(--main-hue), 20%, 35%);
+  --muted-text: #ccc;
+  --context-text: #6597b2;
+
+  --button: hsl(var(--main-hue), 50%, 55%);
+
+  --card-background: #fff;
+  --card-hover: hsl(var(--main-hue), 35%, 95%);
+  --table-separator: #dee2e6;
+  --cards-head-text: hsl(var(--main-hue), 20%, 35%);
+}
+
+.themeDark {
+  --background: #424242;
+  --primary: hsl(var(--main-hue), 100%, 85%);
+  --primary-border: #4347b6;
+
+  --text: hsl(var(--main-hue), 30%, 90%);
+  --table-head-text: hsl(var(--main-hue), 30%, 10%);
+  --context-text: #8effb1;
+
+  --button: var(--primary);
+
+  --card-background: #5f5f5f;
+  --card-hover: rgba(47, 47, 47, 0.76);
+  --table-separator: #828282;
+  --cards-head-text: hsl(var(--main-hue), 30%, 10%);
+}
+
+/* Reset */
+* {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  
+  font-family: "Montserrat", "sans-serif";
+  color: var(--text);
+  overflow: hidden;
+  background: var(--background);
+}
+
